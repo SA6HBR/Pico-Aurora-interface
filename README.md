@@ -35,7 +35,7 @@ You connect the interface in JS1. Same port normaly display is using.
   
 ## Useful Links
 
-* [Interface](https://github.com/SA6HBR/Pico-Aurora-interface/blob/main/CircuitDiagram/Pico_Aurora_interface.pdf)
+* [Circuit](https://github.com/SA6HBR/Pico-Aurora-interface/blob/main/CircuitDiagram/Pico_Aurora_interface.pdf)
 * [MiKTeX](https://miktex.org/)
 * [KiCad](https://www.kicad.org/)
 
