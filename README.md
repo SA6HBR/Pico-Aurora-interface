@@ -12,6 +12,9 @@ You connect the interface in JS1. Same port normaly display is using.
     else:  
         radioStatus = "PTT-OFF"  
         led.value(0)  
+        
+Status you can choose from:
+![alt text](https://github.com/SA6HBR/Pico-Aurora-interface/blob/main/image/c52_display.png "Status")     
   
 ### Example: Code for press PTT  
 
@@ -23,6 +26,9 @@ You connect the interface in JS1. Same port normaly display is using.
         uart0.write(com.getButtonBytes(""))  
         buttonPressed = True  
   
+Button you can choose from:  
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, M, S, #, *, ENTER, LS, ALARM, PTT, ON, UP, DOWN  
+
 ### Example: Code for press POWER
 
     if key.value() and keyPressed:  
@@ -32,6 +38,9 @@ You connect the interface in JS1. Same port normaly display is using.
     if key.value() == False and keyPressed == False:  
         uart0.write(com.getKeyBytes(""))  
         keyPressed = True  
+  
+Key/Function you can choose from:  
+SW1, SW2, SW3, POWER, EM, ServiceMode  
   
 ## Useful Links
 
