@@ -1,4 +1,4 @@
-# Pico-Aurora-interface
+# Pico-Aurora-Interface
 Connect a raspberry pi pico to Ericsson C50 Aurora / Niros TRX3001
 
 ![alt text](https://github.com/SA6HBR/Pico-Aurora-interface/blob/main/image/circuit.png "Interface")  
